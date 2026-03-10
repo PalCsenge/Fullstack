@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Probléma bejelentés</title>
+</head>
+<body>
+    <h1>Probléma bejelentés</h1>
+
+    <a href="../index.html">Főoldal</a>
+    <hr>
+
+    <form action="POST">
+        <label for="email">Email:</label>
+        <input type="email" id="email">
+        <br>
+
+        <input type="radio" id="kerek_ertesitest">
+        <label for="kerek_ertesitest">Kérek értesítést</label>
+        <br>
+
+        <label for="bejelentes_tipusa">Bejelentés típusa:</label>
+        <select id="bejelentes_tipusa">
+            <option value="altalanos">általános bejelentés</option>
+            <option value="pozitiv">pozitív véleményt kívánok tenni</option>
+            <option value="panasz">panaszt kívánok tenni</option>
+        </select> 
+
+        <label for="uzenet_targy">Üzenet tárgya:</label>
+        <input type="text" id="uzenet_targy">
+        <br>
+
+        <label for="uzenet_szovege">Üzenet szövege</label>
+        <input type="text" size="100">
+        <br>
+
+        <button type="submit">Küldés</button>
+    </form>
+</body>
+</html>
