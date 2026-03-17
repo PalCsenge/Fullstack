@@ -1,0 +1,23 @@
+button {
+    background-color: greenyellow;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: green;
+}
+
+input {
+    width: 30px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+img {
+    border-radius: 10px;
+    border: dashed orange;
+}
+
+img:hover {
+    filter: grayscale(100%);
+}
